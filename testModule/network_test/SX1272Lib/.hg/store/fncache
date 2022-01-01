@@ -1,0 +1,12 @@
+data/radio/radio.h.i
+data/sx1272/sx1272-hal.cpp.i
+data/registers/sx1272Regs-LoRa.h.i
+data/registers/sx1272Regs-Fsk.h.i
+data/enums/enums.h.i
+data/debug/debug.h.i
+data/sx1272/sx1272-hal.h.i
+data/sx1272/sx1272.cpp.i
+data/sx1272/sx1272.h.i
+data/typedefs/typedefs.h.i
+data/LICENSE.txt.i
+data/radio/radio.cpp.i
