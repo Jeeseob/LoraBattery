@@ -83,7 +83,7 @@
 #define MBED_CONF_LORA_APP_PORT                                               15                                                                                                   // set by library:lora
 #define MBED_CONF_LORA_AUTOMATIC_UPLINK_MESSAGE                               1                                                                                                    // set by library:lora
 #define MBED_CONF_LORA_DEVICE_ADDRESS                                         0x12345678                                                                                           // set by application[*]
-#define MBED_CONF_LORA_DEVICE_EUI                                             {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}                                                     // set by library:lora
+#define MBED_CONF_LORA_DEVICE_EUI                                             { 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88 }                                                   // set by application[*]
 #define MBED_CONF_LORA_DOWNLINK_PREAMBLE_LENGTH                               5                                                                                                    // set by library:lora
 #define MBED_CONF_LORA_DUTY_CYCLE_ON                                          1                                                                                                    // set by application[*]
 #define MBED_CONF_LORA_DUTY_CYCLE_ON_JOIN                                     1                                                                                                    // set by library:lora

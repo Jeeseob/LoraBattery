@@ -95,6 +95,8 @@ int main(void)
     // setup tracing
     setup_trace();
 
+    // 터미널 테스트 
+    printf("test");
     // stores the status of a call to LoRaWAN protocol
     lorawan_status_t retcode;
 
