@@ -1,0 +1,16 @@
+data/config/SX127X_example_config.json.i
+data/mbed-lora-radio-drv.lib.i
+data/CONTRIBUTING.md.i
+data/trace_helper.cpp.i
+data/DummySensor.h.i
+data/Jenkinsfile.i
+data/lora_radio_helper.h.i
+data/mbed_app.json.i
+data/config/SX126X_example_config.json.i
+data/lora_radio_helper.cpp.i
+data/main.cpp.i
+data/LICENSE.i
+data/mbed-os.lib.i
+data/trace_helper.h.i
+data/README.md.i
+data/mbedtls_lora_config.h.i
