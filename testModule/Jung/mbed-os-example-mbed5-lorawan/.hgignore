@@ -1,0 +1,4 @@
+^BUILD$
+^.mbed$
+^mbed-lora-radio-drv$
+^mbed-os$
