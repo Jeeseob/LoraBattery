@@ -17,6 +17,10 @@
 
 #ifndef MBED_LORAWAN_DUMMYSENSOR_H_
 #define MBED_LORAWAN_DUMMYSENSOR_H_
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+
 
 /*
  * A dummy sensor for Mbed LoRa Test Application
@@ -34,7 +38,9 @@ public:
     void startConversion() {};
     int32_t read()
     {
-        value += 2;
+        srand((unsigned int)time(NULL));
+        int rnum = (rand() % 10) -5;
+        value += rnum;
         return value;
     }
 
