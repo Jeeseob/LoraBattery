@@ -18,8 +18,8 @@
 #ifndef MBED_LORAWAN_DUMMYSENSOR_H_
 #define MBED_LORAWAN_DUMMYSENSOR_H_
 #include<iostream>
-#include<cstdlib>
-#include<ctime>
+#include<random>
+using namespace std;
 
 
 /*
@@ -38,9 +38,10 @@ public:
     void startConversion() {};
     int32_t read()
     {
-        srand((unsigned int)time(NULL));
-        int rnum = (rand() % 10) -5;
-        value += rnum;
+        random_device rd;
+        mt19937 prng(rd());
+        uniform_int_distribution<> Sensor(-50, 50);
+        value = Sensor(prng);
         return value;
     }
 
