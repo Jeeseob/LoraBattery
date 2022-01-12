@@ -94,7 +94,7 @@
 #define MBED_CONF_LORA_NB_TRIALS                                              12                                                                                                   // set by library:lora
 #define MBED_CONF_LORA_NWKSKEY                                                { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6, 0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C  }  // set by application[*]
 #define MBED_CONF_LORA_OVER_THE_AIR_ACTIVATION                                0                                                                                                    // set by application[*]
-#define MBED_CONF_LORA_PHY                                                    KR920                                                                                                // set by application[*]
+#define MBED_CONF_LORA_PHY                                                    AS923                                                                                                // set by application[*]
 #define MBED_CONF_LORA_PUBLIC_NETWORK                                         1                                                                                                    // set by library:lora
 #define MBED_CONF_LORA_TX_MAX_SIZE                                            64                                                                                                   // set by library:lora
 #define MBED_CONF_LORA_UPLINK_PREAMBLE_LENGTH                                 8                                                                                                    // set by library:lora

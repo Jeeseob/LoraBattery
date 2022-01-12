@@ -118,6 +118,6 @@ BUILD/NUCLEO_F446RE/ARMC6/mbed-os/features/lorawan/LoRaWANInterface.o: \
   mbed-os/rtos/mbed_rtos1_types.h \
   mbed-os/rtos/source/TARGET_CORTEX/rtx4/cmsis_os.h \
   mbed-os/features/lorawan/lorastack/phy/loraphy_target.h \
-  mbed-os/features/lorawan/lorastack/phy/LoRaPHYKR920.h \
+  mbed-os/features/lorawan/lorastack/phy/LoRaPHYAS923.h \
   mbed-os/features/frameworks/mbed-trace/mbed-trace/mbed_trace.h \
   mbed-os/features/frameworks/nanostack-libservice/mbed-client-libservice/ns_types.h
