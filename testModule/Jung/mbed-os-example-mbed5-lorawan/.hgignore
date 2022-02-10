@@ -1,4 +1,4 @@
 ^BUILD$
 ^.mbed$
-^mbed-lora-radio-drv$
 ^mbed-os$
+^mbed-lora-radio-drv$

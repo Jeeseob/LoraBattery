@@ -19,9 +19,8 @@
 #define MBED_LORAWAN_DUMMYSENSOR_H_
 #include<iostream>
 #include<random>
+
 using namespace std;
-
-
 /*
  * A dummy sensor for Mbed LoRa Test Application
  */
