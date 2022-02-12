@@ -80,7 +80,7 @@
 #define MBED_CONF_LORA_APPLICATION_EUI                                        { 0x00, 0x11, 0x22, 0x33, 0x33, 0x44, 0x55, 0x66, 0x77 }                                            // set by application[*]
 #define MBED_CONF_LORA_APPLICATION_KEY                                        {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}    // set by library:lora
 #define MBED_CONF_LORA_APPSKEY                                                { 0x2B, 0x7E, 0x15, 0x16, 0x28, 0xAE, 0xD2, 0xA6, 0xAB, 0xF7, 0x15, 0x88, 0x09, 0xCF, 0x4F, 0x3C  } // set by application[*]
-#define MBED_CONF_LORA_APP_PORT                                               12                                                                                                  // set by application[*]
+#define MBED_CONF_LORA_APP_PORT                                               13                                                                                                  // set by application[*]
 #define MBED_CONF_LORA_AUTOMATIC_UPLINK_MESSAGE                               1                                                                                                   // set by library:lora
 #define MBED_CONF_LORA_DEVICE_ADDRESS                                         0x12345677                                                                                          // set by application[*]
 #define MBED_CONF_LORA_DEVICE_EUI                                             { 0x01, 0x12, 0x22, 0x33, 0x44, 0x55, 0x67, 0x77 }                                                  // set by application[*]

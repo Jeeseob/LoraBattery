@@ -34,7 +34,7 @@ public:
     void startConversion() {};
     int32_t read()
     {
-        value += 2;
+        value += 1;
         return value;
     }
 
