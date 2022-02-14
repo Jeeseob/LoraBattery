@@ -28,7 +28,7 @@ class DS1820 {
 public:
     DS1820(uint32_t)
     {
-        value = 1;
+        value = 0;
     };
     bool begin()
     {
@@ -37,10 +37,12 @@ public:
     void startConversion() {};
     int32_t read()
     {
-        random_device rd;
-        mt19937 prng(rd());
-        uniform_int_distribution<> Sensor(-50, 50);
-        value = Sensor(prng);
+        //random_device rd;
+        //mt19937 prng(rd());
+        //uniform_int_distribution<> Sensor(-50, 50);
+        //value = Sensor(prng);
+        value = value -1;
+        printf("%02x\n", value);
         return value;
     }
 
