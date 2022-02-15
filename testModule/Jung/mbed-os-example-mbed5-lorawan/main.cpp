@@ -152,19 +152,20 @@ static void send_message()
 {
     uint16_t packet_len;
     int16_t retcode;
-    int32_t sensor_value;
+    //128bit로 전송하기 위해 char배열을 할당하고 test용도로 값을 넣음
+    char sensor_value[16] = {"123456789abcdef"};
 
     if (ds1820.begin()) {
         ds1820.startConversion();
-        sensor_value = ds1820.read();
-        printf("\r\n Dummy Sensor Value = %d \r\n", sensor_value);
+        
+        printf("\r\n Dummy Sensor Value = %s \r\n", sensor_value);
         ds1820.startConversion();
     } else {
         printf("\r\n No sensor found \r\n");
         return;
     }
-
-    packet_len = sprintf((char *) tx_buffer, "Dummy Sensor Value is %d",
+    //lora에 전달할 tx값을 쓰는 과정과 그의 길이를 전닳한다.
+    packet_len = sprintf((char *) tx_buffer, "Dummy Sensor Value is %s",
                          sensor_value);
 
     retcode = lorawan.send(MBED_CONF_LORA_APP_PORT, tx_buffer, packet_len,
